@@ -16,11 +16,13 @@ export const TaskProvider = ({ children }) => {
             const response = await fetch(` http://localhost:5001/tasks`, config)
             alert("Task added successfully")
 
+
         } catch (error) {
             console.log(error)
 
         }
     }
+    alert("hello")
 
     return (
         <TaskContext.Provider value={{

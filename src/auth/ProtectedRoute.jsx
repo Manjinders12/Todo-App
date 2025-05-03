@@ -22,6 +22,8 @@ const ProtectedRoute = ({ children }) => {
         }
     }
 
+    alert("hello ")
+
 
     useEffect(() => {
         const local = JSON.parse(localStorage.getItem("todouser"));
