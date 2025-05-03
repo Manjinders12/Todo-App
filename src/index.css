@@ -1,0 +1,26 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: #dde7f9;
+}
+
+
+#root{
+    height: 100%;
+}
+
+.bg-primary{
+    background-color: #131828 !important;
+}
+
+.text-primary{
+    color: #131828 !important;
+}
+.btn-primary {
+    background-color: #131828 !important;
+    border-color: #131828!important;
+}
